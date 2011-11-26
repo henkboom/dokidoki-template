@@ -2,12 +2,14 @@ PROJECT_NAME := dokidoki-template
 
 LIBRARIES += \
     dokidoki \
-    physics
+    physics \
+    pl
 
 LUA_SRC += \
-    game.lua \
-    init.lua \
-    player.lua
+    example/init_boxes.lua \
+    example/init.lua \
+    example/player.lua \
+    init.lua
 
 C_SRC +=
 
